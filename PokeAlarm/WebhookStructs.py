@@ -9,9 +9,9 @@ from Utils import get_gmaps_link, get_move_damage, get_move_dps, get_move_durati
 
 log = logging.getLogger('WebhookStructs')
 
-'''
-from . import config
 
+from . import config
+'''
 import urllib
 
 from Crypto.Cipher import Blowfish #pip3 install pycrypto
